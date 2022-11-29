@@ -1,0 +1,926 @@
+
+/*画面サイズが1200px以上のとき*/
+@media screen and (min-width:768px){
+
+	.openbtn{
+		display: none;
+	}
+html{
+
+	font-size: 62.5%;
+}
+
+body{
+	background-color: #F2F0EF;
+}
+
+.global-header__logo{
+	width: 30%;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+	padding-top: 4rem;
+}
+
+.global-header__logo-img{
+	width: 100%;
+	margin: 0 auto;}
+
+
+.gnav__menu{
+	margin: 0 auto;
+	padding: 4rem 0;
+	display: flex;
+	width: 62%;
+	justify-content: space-between;
+}
+
+.gnav__link{
+	color: #4B2600;
+	font-size: 1.6rem;
+	text-decoration: none;
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.mv{
+	text-align: center;
+	margin-bottom: 8rem;
+}
+
+video{
+	width: 78%;
+	border-radius: 1.8rem;
+}
+
+.background-img{
+	width: 100%;
+}
+
+.news-bg{
+	width: 100%;
+	background-color: #F0ECE3;
+}
+
+.news{
+	width: 78%;
+	margin: 0 auto;
+}
+
+.home__h2{
+	font-size: 3.2rem;
+	color: #4B2600;
+	margin-bottom: 2.5rem;
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+
+.news__ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.news__list{
+	width: 18%;
+	margin-bottom: 4rem;
+}
+
+.news__img{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.news__link{
+	transition: .3s;
+}
+
+.news__link:hover{
+	opacity: 0.8;
+}
+
+.news__p{
+	color: #4B2600;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+
+.news__caption{
+	color: #4B2600;
+	font-size: 1.6rem;
+	font-weight: bold;
+	line-height: 2.2rem;
+	text-decoration: none;
+	transition: .3s;
+}
+
+.news__caption:hover{
+	color: #756657;
+}
+
+.more{
+	margin: 0 auto;
+text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem 2rem;
+  width: 14rem;
+  color: #333;
+  font-size: 1.8rem;
+border-radius: 3.2rem;
+  background-color: #3D7F32;
+}
+
+.more__link{
+	color: #fff;
+text-decoration: none;
+font-weight: bold;
+transition: .3s;
+}
+
+.more__link:hover{
+	opacity: .8;
+}
+
+.pickup_outer{
+	background-image: url(../img/pickup_bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 400px;
+}
+
+.pickup{
+	width: 78%;
+	margin: 0 auto;
+	padding-top: 4rem;
+	
+}
+
+.shop__ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop__list{
+	width: 20%;
+	margin-bottom: 4rem;
+}
+
+.shop__p{
+	color: #4B2600;
+	font-size: 1.3rem;
+	margin-bottom: 0.7rem;
+}
+
+.shop__caption{
+	color: #4B2600;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.serch-bg{
+	background-color: #F0ECE3;
+}
+
+.serch{
+	width: 78%;
+	margin: 0 auto;
+}
+
+.seach__box{
+	margin-bottom: 3.3rem;
+	width: 37%;
+}
+
+.seach__genre{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.seach__genre-list{
+	width: 32%;
+}
+
+.seach__genre-link{
+	width: 100%;
+	padding-bottom: 4rem;
+}
+
+.accsess{
+	width: 80%;
+	margin: 0 auto;
+}
+
+iframe{
+	width: 100%;
+	border-radius: 3.3rem;
+	margin-bottom: 2rem;
+}
+
+.accsess__p{
+	color: #4B2600;
+	font-weight: bold;
+	font-size: 1.6rem;
+	margin-bottom: 11.6rem;
+}
+
+.footer{
+	border-top: #4B2600 solid 1px;
+	text-align: center;
+}
+
+.footer__p{
+	color: #4B2600;
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin-top: 4.4rem;
+	margin-bottom: 4.4rem;
+}
+
+/* ニュース一覧 */
+.newspage{
+	padding-top: 9rem;
+	padding: 14rem;
+	width: 78%;
+	margin: 0 auto;
+}
+
+/* ニュース詳細 */
+.news-detailpage{
+	width: 78%;
+	padding-top: 9rem;
+	margin: 0 auto;
+	margin-bottom: 20rem;
+}
+
+.news__h2{
+	font-family: 'Kaisei HarunoUmi', serif;
+	font-weight: bold;
+	font-size: 3.2rem;
+	color: #4B2600;
+	margin-bottom: 1rem;
+	line-height: 4rem;
+}
+
+
+.date{
+	color:#4B2600;
+	margin-bottom: 4rem;
+	font-size: 1.6rem;
+}
+.news-detail__p{
+	color: #4B2600;
+	font-size: 1.6rem;
+	line-height: 2.5rem;
+	width: 75%;
+
+}
+
+.news-detail__br{
+	margin-bottom: 2.5rem;
+}
+
+.news__detail{
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.past{
+	width: 18%;
+}
+
+.past__title{
+	text-align: center;
+}
+
+.news__h3{
+	font-size: 2.4rem;
+	font-weight: bold;
+	color: #4B2600;
+}
+
+.past__img{
+	width: 100%;
+	margin-bottom: 0.8rem;
+	margin-top: 2.5rem;
+}
+
+.past-date{
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 2rem;
+	color: #4B2600;
+	text-decoration: none;
+}
+
+/* 店舗検索 */
+.serch-detail-page{
+	width: 78%;
+	margin: 0 auto;
+	padding-top: 9rem;
+	margin-bottom: 7rem;
+}
+
+.shop__detail__list{
+	width: 78%;
+	margin: 0 auto;
+}
+
+.shop__detail{
+	border: #4B2600 0.1rem solid;
+	border-radius: 1rem;
+	margin-bottom: 2rem;
+}
+
+.shop__category{
+	margin: 2rem;
+	font-size: 1.6rem;
+	color: #4B2600;
+}
+
+.shop__title{
+	font-size: 2.4rem;
+	padding-bottom: 1.4rem;
+	padding-left: 2rem;
+	font-weight: bold;
+	color: #4B2600;
+	border-bottom: #4B2600 solid 0.1rem;
+}
+
+.shop__info{
+	color: #4B2600;
+	font-size: 1.6rem;
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	justify-content: space-between;
+	margin: 2.6rem 0 2.6rem 2rem;
+	line-height: 2rem;
+}
+
+/* 地図から探す */
+.shop__map{
+	width: 100%;
+	border-radius: 3.3rem;
+	margin-bottom: 14rem;
+	margin-top: 1.4rem;
+}
+
+/* アクセス */
+.map-detailpage{
+	padding-top: 9rem;
+	margin: 0 auto;
+}
+
+/* 商店街について */
+.shoutenngai{
+	width: 78%;
+	margin: 0 auto;
+	padding-top: 9rem;
+	padding-bottom: 14rem;
+}
+
+.shoutengai__h3{
+	font-family: 'Kaisei HarunoUmi', serif;
+	font-size: 2.4rem;
+	font-weight: bold;
+	margin-top: 6rem;
+	margin-bottom: 2rem;
+	color: #4B2600;
+}
+
+.shoutengai__p{
+	font-size: 2rem;
+	line-height: 3rem;
+	color: #4B2600;
+}
+
+/* モーダル */
+/*全て共通：hideエリアをはじめは非表示*/
+.hide-area{
+	display: none;
+}
+
+/*全て共通：モーダルのボタンの色を変更したい場合*/
+.modaal-close:after, 
+.modaal-close:before{
+	background:#ccc;	
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before{
+	background:#583006;
+}
+
+.modaal__h2{
+	border-radius: 3rem 3rem 0rem 0rem;
+	background-color: #583006;
+	color: #fff;
+	font-size: 2.8rem;
+	font-weight: bold;
+	padding: 3.8rem 0 3.8rem 7rem;
+	margin-bottom: 8rem;
+	
+}
+
+.modaal__h3{
+	color: #583006;
+	font-weight: bold;
+	font-size: 2rem;
+	margin-left: 7rem;
+	margin-bottom: 1.6rem;
+}
+
+.modaal__ul{
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 3rem;
+	margin-left: 7rem;
+}
+
+
+.modaal__li{
+	color: #583006;
+	font-size: 1.6rem;
+	margin-right: 3rem;
+	margin-bottom: 4rem;
+}
+
+.modaal__ul50{
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 3rem;
+	margin-left: 7rem;
+}
+
+
+.modaal__li50{
+	width: 20%;
+	color: #583006;
+	font-size: 2.4rem;
+	font-weight: bold;
+
+	margin-bottom: 4rem;
+}}
+
+
+/*画面サイズが480px以下のとき*/
+@media screen and (max-width:768px){
+
+	
+	html{
+
+		font-size: 54.6%;
+	}
+	
+	body{
+		background-color: #F2F0EF;
+	}
+
+	.btn__a{
+		font-family: 'Kaisei HarunoUmi', serif;
+		font-size: 1.6rem;
+	}
+	
+	.global-header__logo{
+		width: 60%;
+		margin: 0 auto;
+		padding-bottom: 4rem;
+		padding-top: 2rem;
+	}
+
+	.global-header__logo-img{
+		width: 100%;
+		margin: 0 auto;
+
+
+		
+	}
+	
+	.gnav{
+		display: none;
+	}
+
+	
+
+	
+	.mv{
+		text-align: center;
+		margin-bottom: 8rem;
+	}
+	
+	video{
+		border-radius: 1.8rem;
+		width: 90%;
+  height: 600px;
+  object-fit: cover;
+	}
+	
+	.background-img{
+		width: 100%;
+	}
+	
+	.news-bg{
+		width: 100%;
+		background-color: #F0ECE3;
+	}
+	
+	.news{
+		width: 78%;
+		margin: 0 auto;
+	}
+	
+	.home__h2{
+		font-family: 'Kaisei HarunoUmi', serif;
+		font-size: 3.2rem;
+		color: #4B2600;
+		margin-bottom: 2.5rem;
+	}
+	
+	.news__ul{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+	.news__list{
+		width: 45%;
+		margin-bottom: 4rem;
+	}
+	
+	.news__img{
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+	
+	.news__p{
+		color: #4B2600;
+		font-size: 1.1rem;
+		margin-bottom: 1rem;
+	}
+	
+	.news__caption{
+		color: #4B2600;
+		font-size: 1.6rem;
+		font-weight: bold;
+		line-height: 2.2rem;
+		text-decoration: none;
+	}
+	
+	.more{
+		margin: 0 auto;
+	text-align: center;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 1rem 2rem;
+	  width: 14rem;
+	  color: #333;
+	  font-size: 1.8rem;
+	border-radius: 3.2rem;
+	  background-color: #3D7F32;
+	}
+	
+	.more__link{
+		color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	
+	}
+	
+	.pickup{
+		width: 78%;
+		margin: 0 auto;
+		padding-top: 4rem;
+		
+	}
+	
+	.shop__ul{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+	.shop__list{
+		width: 45%;
+		margin-bottom: 4rem;
+	}
+	
+	.shop__p{
+		color: #4B2600;
+		font-size: 1.3rem;
+		margin-bottom: 0.7rem;
+	}
+	
+	.shop__caption{
+		color: #4B2600;
+		font-size: 1.6rem;
+		font-weight: bold;
+	}
+	
+	.serch-bg{
+		background-color: #F0ECE3;
+	}
+	
+	.serch{
+		width: 78%;
+		margin: 0 auto;
+	}
+	
+	.seach__box{
+		margin-bottom: 3.3rem;
+		width: 80%;
+	}
+	
+	.seach__genre{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+	.seach__genre-list{
+		width: 48%;
+	}
+	
+	.seach__genre-link{
+		width: 100%;
+		padding-bottom: 2rem;
+	}
+	
+	.accsess{
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	iframe{
+		width: 100%;
+		border-radius: 3.3rem;
+		margin-bottom: 2rem;
+	}
+	
+	.accsess__p{
+		color: #4B2600;
+		font-weight: bold;
+		font-size: 1.6rem;
+		margin-bottom: 11.6rem;
+	}
+	
+	.footer{
+		margin-top: 7rem;
+		border-top: #4B2600 solid 1px;
+		text-align: center;
+	}
+	
+	.footer__p{
+		color: #4B2600;
+		font-size: 1.6rem;
+		font-weight: bold;
+		margin-top: 4.4rem;
+		margin-bottom: 4.4rem;
+	}
+	
+	/* ニュース一覧 */
+	.newspage{
+		padding-bottom: 6rem;
+		padding-top: 9rem;
+		width: 78%;
+		margin: 0 auto;
+	}
+	
+	/* ニュース詳細 */
+	.news-detailpage{
+		width: 78%;
+		padding-top: 9rem;
+		margin: 0 auto;
+		margin-bottom: 20rem;
+	}
+	
+	.news__h2{
+		font-weight: bold;
+		font-size: 3.2rem;
+		color: #4B2600;
+		margin-bottom: 1rem;
+		line-height: 4rem;
+	}
+	
+	.date{
+		color:#4B2600;
+		margin-bottom: 4rem;
+		font-size: 1.6rem;
+	}
+	.news-detail__p{
+		color: #4B2600;
+		font-size: 1.6rem;
+		line-height: 2.5rem;
+		width: 100%;
+	
+	}
+	
+	.news-detail__br{
+		margin-bottom: 2.5rem;
+	}
+	
+	.news__detail{
+		display: block;
+		
+	}
+	
+	.past__flex{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.past{
+		width: 100%;
+	}
+
+	.past__small{
+		width: 45%;
+	}
+	
+	.past__title{
+		text-align: center;
+	}
+	
+	.news__h3{
+		font-size: 2.4rem;
+		font-weight: bold;
+		color: #4B2600;
+	}
+
+	.news-detail__div{
+		width: 90%;
+	}
+	
+	.newsdetail__img{
+		width: 80%;
+	}
+	
+	
+	.past__img{
+		width: 100%;
+		margin-bottom: 0.8rem;
+		margin-top: 2.5rem;
+	}
+	
+	.past-date{
+		font-size: 1.2rem;
+		font-weight: bold;
+		line-height: 2rem;
+		color: #4B2600;
+		text-decoration: none;
+	}
+	
+	/* 店舗検索 */
+	.serch-detail-page{
+		width: 78%;
+		margin: 0 auto;
+		padding-top: 9rem;
+		padding-bottom: 7rem;
+	}
+	
+	.shop__detail__list{
+		width: 78%;
+		margin: 0 auto;
+	}
+	
+	.shop__detail{
+		border: #4B2600 0.1rem solid;
+		border-radius: 1rem;
+		margin-bottom: 2rem;
+	}
+	
+	.shop__category{
+		margin: 2rem;
+		font-size: 1.6rem;
+		color: #4B2600;
+	}
+	
+	.shop__title{
+		font-size: 2.4rem;
+		padding-bottom: 1.4rem;
+		padding-left: 2rem;
+		font-weight: bold;
+		color: #4B2600;
+		border-bottom: #4B2600 solid 0.1rem;
+	}
+	
+	.shop__info{
+		color: #4B2600;
+		font-size: 1.6rem;
+		width: 80%;
+		margin: 2.6rem 0 2.6rem 2rem;
+		line-height: 2rem;
+	}
+	
+	/* 地図から探す */
+	.shop__map{
+		width: 100%;
+		border-radius: 3.3rem;
+		margin-bottom: 6rem;
+		margin-top: 1.4rem;
+	}
+	
+	/* アクセス */
+	.map-detailpage{
+		padding-top: 9rem;
+		margin: 0 auto;
+	}
+	
+	/* 商店街について */
+	.shoutenngai{
+		width: 78%;
+		margin: 0 auto;
+		padding-top: 9rem;
+		padding-bottom: 7rem;
+	}
+	
+	.shoutengai__h3{
+		font-size: 2.4rem;
+		font-weight: bold;
+		margin-top: 6rem;
+		margin-bottom: 2rem;
+		color: #4B2600;
+	}
+	
+	.shoutengai__p{
+		font-size: 2rem;
+		line-height: 3rem;
+		color: #4B2600;
+	}
+	
+	/* モーダル */
+	/*全て共通：hideエリアをはじめは非表示*/
+	.hide-area{
+		display: none;
+	}
+	
+	/*全て共通：モーダルのボタンの色を変更したい場合*/
+	.modaal-close:after, 
+	.modaal-close:before{
+		background:#ccc;	
+	}
+	
+	.modaal-close:focus:after,
+	.modaal-close:focus:before,
+	.modaal-close:hover:after,
+	.modaal-close:hover:before{
+		background:#583006;
+	}
+	
+	.modaal__h2{
+		border-radius: 3rem 3rem 0rem 0rem;
+		background-color: #583006;
+		color: #fff;
+		font-size: 2.8rem;
+		font-weight: bold;
+		padding: 3.8rem 0 3.8rem 7rem;
+		margin-bottom: 8rem;
+		
+	}
+	
+	.modaal__h3{
+		color: #583006;
+		font-weight: bold;
+		font-size: 2rem;
+		margin-left: 7rem;
+		margin-bottom: 1.6rem;
+	}
+	
+	.modaal__ul{
+		width: 80%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 3rem;
+		margin-left: 7rem;
+	}
+	
+	
+	.modaal__li{
+		color: #583006;
+		font-size: 1.6rem;
+		margin-right: 3rem;
+		margin-bottom: 1rem;
+	}
+	
+	.modaal__ul50{
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 3rem;
+		margin-left: 7rem;
+	}
+	
+	
+	.modaal__li50{
+		color: #583006;
+		font-size: 2.4rem;
+		font-weight: bold;
+		margin-right: 5rem;
+		margin-bottom: 4rem;
+}}
